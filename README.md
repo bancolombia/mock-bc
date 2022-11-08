@@ -74,7 +74,7 @@ Una vez realizado el PR se validara el respectivo cambio y se aprobara el PR.
 
 ## `NOTA de version.`
 
-Por el momento este proyecto open source se encuentra en una versión BETA, la cual no esta automatizada con npm.
+Por el momento este proyecto open source se encuentra en una versión BETA, esto quiere decir que no esta automatizada con npm.
 Para hacer uso debe de integrar el componente a node_modules manualmente.
 Estamos trabajando para automatizar la dependencia por medio de NPM en proximas versión.
 
