@@ -1,0 +1,19 @@
+{
+	"name": "mockaug-service",
+	"version": "0.0.1",
+	"description": "Cración de mocks mediante ficheros JSON",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "pm2 start mockaug.js"
+	},
+	"keywords": [],
+	"author": "Andrés Augusto Cristancho Lora",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "2.8.5",
+		"dotenv": "16.0.3",
+		"express": "4.18.2",
+		"morgan": "1.10.0"
+	}
+}
