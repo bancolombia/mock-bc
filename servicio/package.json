@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
-		"start": "pm2 start mockaug.js"
+		"start": "pm2 start mock-json.js"
 	},
 	"keywords": [],
 	"author": "Andrés Augusto Cristancho Lora",
