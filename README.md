@@ -96,6 +96,6 @@ export class BuildersService {
 
 <h2>¿Como contribuir?</h2>
 
-- Crear rama con el siguiente formato: <span style="background-color: #DFF7FF; color: #028BB9; border-radius: 4px; padding: 2px 6px; border: 1px solid #028BB9;">feature/nombre_usuario_github</span>
+- Realizar fork
 - Realizar el respectivo Pull Request
 - Finalmente se validará el respectivo cambio y se aprobará.
