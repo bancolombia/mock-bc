@@ -26,6 +26,10 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 12
+
+      - name: Going to location
+        run: 'cd complemento_para_angular/projects/mock-json-bancolombia'
+
       - run: npm install
       - run: npm test
       - uses: JS-DevTools/npm-publish@v1
