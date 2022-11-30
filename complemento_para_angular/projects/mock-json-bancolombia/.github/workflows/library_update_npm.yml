@@ -29,13 +29,10 @@ jobs:
 
       - name: Going to location
         run: | 
-            cd complemento_para_angular/projects/mock-json-bancolombia
             npm install
             npm test
 
       - uses: JS-DevTools/npm-publish@v1
-        run: |
-            cd complemento_para_angular/projects/mock-json-bancolombia
         with:
           token: ${{ secrets.NPM_SECRET }}
       
