@@ -1,6 +1,6 @@
 {
   "name": "mock-json-bancolombia",
-  "version": "0.0.0",
+  "version": "0.0.5",
   "author": "Andrés Augusto Cristancho Lora",
   "scripts": {
     "ng": "ng",
@@ -9,7 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^14.1.0",
     "@angular/common": "^14.1.0",
