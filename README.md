@@ -74,7 +74,7 @@ export const MockJson = (mockName: string) => {
     return MockJsonDecorator(settings, mockName);
 }
 ```
-La clave <span style="background-color: #DFF7FF; color: #028BB9; border-radius: 4px; padding: 2px 6px; border: 1px solid #028BB9;">active</span> enciende o apaga el funcionamiento de la librería.
+La clave <span style="background-color: #DFF7FF; color: #028BB9; border-radius: 4px; padding: 2px 6px; border: 1px solid #028BB9;">"active"</span> enciende o apaga el funcionamiento de la librería.
 
 Por último, el decorador debe ubicarse encima del metodo que se quiere mockear, de la siguiente manera
 
